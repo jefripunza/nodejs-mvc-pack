@@ -41,6 +41,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# WhatsApp Session
+whatsapp-session.json
+
 # Source Tester
 x-sources/
 
