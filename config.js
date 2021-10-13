@@ -5,11 +5,13 @@ const config = {
     app_name: "NodeJS MVC Pack",
     description: "this is website programming MVC environment",
 
-    public_path: path.join(__dirname, "frontend", "build"),
-
     // Github Config
     github_repository: "https://github.com/jefripunza/nodejs-mvc-pack.git",
     template_markdown: "https://raw.githubusercontent.com/jefripunza/storage/main/README.md", // include "{{judul_project}}" for replace to name project
+
+    public_path: path.join(__dirname, "frontend", "build"),
+
+    whatsapp_session: "whatsapp-session.json",
 
     // your secure
     password_encrypt: "mvc", // change this for new security (only once)
